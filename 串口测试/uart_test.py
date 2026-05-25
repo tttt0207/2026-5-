@@ -2,6 +2,7 @@ import serial
 import time
 
 ser = serial.Serial('/dev/ttyS2', 115200, timeout=1)
+#固定发送dx = 0.1cm dy = 0.2cm
 
 while True:
     # dx = 0.1cm -> 10 -> 00 0A
